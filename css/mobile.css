@@ -1,0 +1,99 @@
+/* tablet breakpoints */
+@media screen and (max-width: 800px) {
+    
+    header div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 1%;
+    }
+    
+    .banner div img {
+        display: none;
+        border: 0;
+    }
+
+    .banner div {
+        margin-top: 0;
+    }
+}
+
+/* phone breakpoints */
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+    header div .logo {
+        display: none;
+    }
+
+    header nav {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    header div nav a {
+        border: 1px solid gray;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        height: 3rem;
+        padding-top: 2%;
+    }
+
+    #middleContent .middleTop {
+        flex-direction: column;
+    }
+
+    #middleContent .middleTop div {
+        width: 90%;
+    }
+
+    .middleMiddle, footer {
+        width: 90%;
+    }
+
+    #middleContent .middleBottom {
+        flex-direction: column;
+    }
+
+    #middleContent .middleBottom div {
+        width: 90%;
+    }
+   
+}
+
+/* tablet responsive services */
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* mobile responsive services */
+
+@media screen and (max-width: 500px) {
+    #middleContent-Services {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    #middleContent-Services div {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .banner h2, p {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .banner h2 {
+        padding-top: 2%;
+    } 
+    
+}

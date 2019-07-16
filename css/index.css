@@ -1,3 +1,134 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* Set every element's box-sizing to border-box */
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: auto;
+    /* border: 1px solid gray; */
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container {
+	width: 800px;
+}
+
+/* header styling */
+
+header div {			/* display flex on all header divs*/
+	display: flex;
+	flex-flow: row nowrap;
+	margin-top: 2.5%;
+}
+div nav {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 70%;
+}
+
+div .logo {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: slategray;	
+}
 
 
+/* banner styling */
+.banner div{
+	display: flex;
+	flex-flow: column nowrap;
+	width: 50%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.banner div h1 {
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	width: 10.0rem;
+	height:2.0rem;
+}
+
+/* middle content styling */
+#middleContent {
+	border-top: 2px solid black;
+}
+
+#middleContent div {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#middleContent .middleTop div {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 49%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	justify-content: space-between;
+}
+
+
+#middleContent .middleBottom div {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.middleTop div h2, p {
+	width: 100%;
+}
+
+.middleBottom div h2, p {
+	width: 100%;
+}
+
+/*middle image style */
+
+.middle-img {
+	width: 100%;
+}
+
+/* footer and contact styling */
+
+footer {
+	border-top: 2px solid black;
+	padding-top: 5%;
+}
+
+.copyright {
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 2.5%;
+}
+
+/* miscellaneous styling */
+
+h2 {
+	font-size: 1.2rem;
+}
+
+p {
+	font-weight: bold;
+}
+
+.contact {
+	font-weight: bold;
+}
