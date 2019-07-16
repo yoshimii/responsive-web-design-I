@@ -71,14 +71,14 @@ a {
 
 /* styling middle content */
 
-#middleContent {
+#middleContent-Services {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-top: 4%;
 }
 
-#middleContent div{
+#middleContent-Services div{
 	display: flex;
 	flex-direction: column;
 	width: 47%;
@@ -88,7 +88,7 @@ a {
 	margin: 2% 0 2% 0;
 }
 
-#middleContent div h2, p {
+#middleContent-Services div h2, p {
 	width: 100%;
 }
 
@@ -104,6 +104,12 @@ button {
 
 
 /* footer styling */
+
+footer {
+	border-top: 2px solid black;
+	margin-top: 2%;
+
+}
 
 footer div{
 	display: flex;
