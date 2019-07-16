@@ -102,6 +102,40 @@ button {
 	margin-top: 3%;
 }
 
+
+/* footer styling */
+
+footer div{
+	display: flex;
+}
+
+.facts {
+	width: 100%;
+}
+
+.facts div {
+	flex-direction: column;
+	width: 47%;
+	margin-top: 5%;
+}
+
+.facts div h2, p, img, ul {
+	width: 100%;
+	list-style-position: inside;
+}
+
+.facts ul {
+	margin-top: 5%;
+}
+
+.copyright {
+	flex-direction: row;
+	width: 100%;
+	padding-top: 5%;
+	justify-content: center;
+}
+
+
 /* miscellaneous styling */
 
 h2 {
@@ -110,6 +144,7 @@ h2 {
 
 p {
 	font-weight: bold;
+	font-size: .9rem;
 }
 
 .contact {
